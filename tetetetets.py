@@ -35,5 +35,3 @@ def lambda_handler(event, context):
     logger.info('This is an info log message')
     logger.info('hi')
     logger.error('danger danger')
-
-lambda_handler(None, None)  # Example invocation
